@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid;
+    background-color:red;
+    margin-top: 50px;
+}
+
+#imagem {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#botao{
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 5px;
+    /*background-color: aqua;*/
+}
+
+
+#bota {
+    display: block;
+    margin: 20px auto;
+    background-color: #336699;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#caixa-detalhes {
+    /*background-color: #336699;*/
+    float: left;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#caixa-video {
+    /*background-color: #336699*/;
+    float: right;
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    #caixa-detalhes, #caixa-video {
+        float: none;
+        width: 100%;
+    }
+}
+
+footer #footer{
+    border: 1px solid black;
+    width: 100vw;
+    height: 100%;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
